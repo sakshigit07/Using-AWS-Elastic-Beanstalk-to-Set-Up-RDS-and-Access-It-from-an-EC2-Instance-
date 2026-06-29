@@ -73,8 +73,10 @@ sudo mysql -h <rds-endpoint> -u <username> -p
 - **No Public Exposure:** The Amazon RDS database instance has public accessibility turned off, ensuring it cannot be targeted or scanned from the public internet even though its in public subnet.
 - **Security Group :** Inbound rules of security groups are keeping away unauthorized compute services because of source. Where I have given Security group ID of standalone EC2 and Elastic Beanstalk’s security group ID.
 
-![alt text](images/Screenshot (314).png)
+## Screenshots and output examples 
 
-![alt text](images/Screenshot (316).png)
+![alt text](images/Screenshot(314).png)
 
-![alt text](images/Screenshot (315).png)
+![alt text](images/Screenshot(316).png)
+
+![alt text](images/Screenshot(315).png)
